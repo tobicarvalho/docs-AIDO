@@ -127,13 +127,13 @@ One of the main obstacle was the unstability of the critic, which in return prev
 The figures below show the critic's loss both before and after these modifications. While the before figures was stopped early comperatively to the other, it should be easy to see that the loss was much higher.
 
 <p align="center">
-<img src="images/big_loss.png" height="250"/>
+<img src="docs-AIDO/book/AIDO/31_task_embodied_strategies/images/big_loss.png" height="250"/>
 </p>
 
 <center><b>Critic loss before modification (crashing penalty of 1000)</b></center>
 
 <p align="center">
-<img src="images/critic_loss.png" height="250"/>
+<img src="docs-AIDO/book/AIDO/31_task_embodied_strategies/images/critic_loss.png" height="250"/>
 </p>
 <center><b>Critic loss after modification (crashing penalty of 10 and pre-training)</b></center>
 
@@ -142,7 +142,7 @@ Despite the improvement seen in the loss of the critic, we believe it could be i
 
 ---
 <p align="center">
-<img src="images/left_wheel.png" height="250"/>
+<img src="docs-AIDO/book/AIDO/31_task_embodied_strategies/images/left_wheel.png" height="250"/>
 </p>
 
 <center><b>200 of the correction sent to the left wheel during the last evaluation</b></center>
@@ -150,7 +150,7 @@ Despite the improvement seen in the loss of the critic, we believe it could be i
 ---
 
 <p align="center">
-<img src="images/right_wheel.png" height="250"/>
+<img src="docs-AIDO/book/AIDO/31_task_embodied_strategies/images/right_wheel.png" height="250"/>
 </p>
 <center><b>200 of the correction sent to the right wheel during the last evaluation</b></center>
 
@@ -160,7 +160,7 @@ We also observed that the actor has a tendancy to send only the maximum or minim
 ---
 
 <p align="center">
-<img src="images/eval_reward.png" height="250"/>
+<img src="docs-AIDO/book/AIDO/31_task_embodied_strategies/images/eval_reward.png" height="250"/>
 </p>
 <center><b>Mean evalutation reward based on 10 random starting points.</b></center>
 
