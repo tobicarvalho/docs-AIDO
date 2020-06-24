@@ -1,4 +1,4 @@
-# Residual Learning Policy by Reinforcement Learning {#embodied_rpl status=ready}
+# Residual Learning Policy by Reinforcement Learning
 
 This section describes the basic procedure for making a submission with a model trained in simulation using reinforcement learning with PyTorch and the ROS baseline. It can be used as a starting point for any of the [`LF`](#lf), [`LFV`](#lf_v), and [`LFVI`](#lf_v_i) challenges.
 
